@@ -1,4 +1,4 @@
-import 'package:bookly_app/Features/Home/Presentation/Views/Widgets/best_seller_listview_item.dart';
+import 'package:bookly_app/Features/Home/Presentation/Views/Widgets/book_listview_item.dart';
 import 'package:flutter/material.dart';
 
 class BestSellerListView extends StatelessWidget {
@@ -12,7 +12,7 @@ class BestSellerListView extends StatelessWidget {
       itemCount: 10,
         itemBuilder: (context, index) => const Padding(
           padding: EdgeInsets.symmetric(vertical: 10),
-          child: BestSellerListViewItem(),
+          child: BookListViewItem(),
         ),
 
     );
